@@ -1,0 +1,210 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&family=Roboto+Slab:wght@100;200;300;400;500&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global CSS Variables */
+:root {
+    --primary-color: #0E4BF1;
+    --panel-color: #FFF;
+    --text-color: #000;
+    --border-color: #e6e5e5;
+    --toggle-color: #DDD;
+    --box1-color: #4DA3FF;
+    --box2-color: #FFE6AC;
+    --box3-color: #E7D1FC;
+    --title-icon-color: #fff;
+    --black-light-color: #6f6e6e;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: white;
+}
+
+/* Navigation Styles */
+nav {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+    height: 100vh;
+    padding: 10px 14px;
+    background-color: #005366;
+    box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+    transition: left 0.3s ease;
+}
+
+nav.open {
+    left: 0;
+}
+
+nav .logo-name {
+    margin-right: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo-image {
+    display: flex;
+    justify-content: center;
+    min-width: 45px;
+}
+
+nav .logo-image img {
+    width: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+nav .logo-name .logo_name {
+    margin-right: 23px;
+    font-size: 22px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+nav .menu-items {
+    margin-top: 40px;
+    height: calc(90% - 90px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu-items ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-items li a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    position: relative;
+}
+
+.nav-links li a:hover:before {
+    position: absolute;
+    content: "";
+    left: -7px;
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.menu-items li a i {
+    font-size: 24px;
+    min-width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.menu-items li a .link-name {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-links li a:hover,
+.nav-links li a:hover .link-name {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Toggle Button Styles */
+.toggle-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #005366;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 999;
+}
+
+.toggle-button:before,
+.toggle-button:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    transition: transform 0.3s ease;
+}
+
+.toggle-button:before {
+    transform: translateY(-6px);
+}
+
+.toggle-button:after {
+    transform: translateY(6px);
+}
+
+.toggle-button.open:before {
+    transform: translateY(0) rotate(45deg);
+}
+
+.toggle-button.open:after {
+    transform: translateY(0) rotate(-45deg);
+}
+
+/* Search Styles */
+.menu-items li a i {
+    font-size: 24px;
+    min-width: 45px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: whitesmoke;
+}
+
+.menu-items li a .link-name {
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.nav-links li a:hover,
+.nav-links li a:hover .link-name {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Head Container Styles */
+.head-container {
+    width: 79%;
+    height: 60px;
+    margin-top: 30px;
+    margin-left: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    padding: 10px;
+    transition: margin-left 0.3s ease, margin-right 0.3s ease;
+}
+

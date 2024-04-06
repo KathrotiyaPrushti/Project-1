@@ -1,0 +1,88 @@
+.card-view {
+    word-break: break-word;
+    position: relative;
+    display: inline-block;
+    /* Fix: Corrected display value */
+    width: 250px;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 0px 15px 15px 15px;
+    margin: 10px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.user_name {
+    background-color: #849891;
+    color: whitesmoke;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    width: 120px;
+    height: auto;
+    text-align: center;
+    /* display: block; */
+    /* position: unset; */
+    bottom: 0px;
+    right: 0px;
+    margin-left: 114px;
+}
+
+
+/* .button{
+    position: fixed;
+    width: fit-content;
+    height: auto;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin: 3%;
+    margin-top: 0px;
+} */
+
+
+/* .button a{
+    margin: 10px;
+    border: 1px solid transparent;
+    background-color: #196ce9;
+} */
+
+.title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: x-large
+}
+
+.note-full-container {
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.side-stick {
+    position: absolute;
+    width: 3px;
+    height: 35px;
+    left: 0;
+    background-color: #849891;
+}
+
+.note-content {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.note-date {
+    margin-left: 10px;
+}
+
+.main_page{
+    margin-left: 280px;
+}
+

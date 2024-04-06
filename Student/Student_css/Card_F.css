@@ -1,0 +1,180 @@
+.modal,
+.Week {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-dialog {
+    /* background-color: red; */
+    width: 240px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.weekly-dialog {
+    width: 300px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.modal-header,
+.weekly-header {
+    /* display: flex;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.modal-title,
+.weekly-title {
+    padding: 0;
+    margin: 5px;
+    flex-grow: 1;
+    font-size: 1.25rem;
+}
+
+.modal-body,
+.weekly-body {
+    margin: 8px;
+}
+
+.note-title input,
+.note-description textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    /* margin-left: 5px; */
+}
+
+.weekly-title input,
+.weekly-description textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.modal-footer,
+.weekly-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.modal-footer button,
+.weekly-footer button {
+    /* margin-right: 10px; */
+    background-color: #fff;
+    border-radius: 5px;
+    color: #000;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    font-size: larger;
+}
+
+.modal-footer button:hover,
+.weekly-footer button:hover {
+    background: #B0DAFF;
+    color: whitesmoke;
+}
+
+.note-title label,
+.note-description label,
+.weekly-title label,
+.weekly-description label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.close {
+    /* justify-content: flex-end; */
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+
+/* input[type="text"] {
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+} */
+
+textarea {
+    width: 90%;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.btn {
+    background-color: #B0DAFF;
+    /* Green */
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.btn:hover {
+    background-color: green;
+}
+
+.add_search {
+    width: 95%;
+    margin: 2%;
+    border-radius: 10px;
+}
+
+.button {
+    /* position: fixed; */
+    width: auto;
+    height: auto;
+    padding: 10px;
+    /* background-color: #f0f0f0; */
+    border-radius: 10px;
+}

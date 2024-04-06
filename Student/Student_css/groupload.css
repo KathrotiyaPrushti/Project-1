@@ -1,0 +1,71 @@
+.Group {
+    margin-top: 10px;
+    cursor: pointer;
+    word-break: break-word;
+    position: relative;
+    width: 90%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+#groupload {
+    margin-left: 260px;
+    margin-top: 30px;
+    /* border-radius: 10px; Add border-radius property to create curved borders
+    border: 1px solid #ccc;  */
+    /* margin-bottom:10px Adjust the top margin value to create space for the fixed navigation bar and add-group */
+    height: calc(90vh - 50px);
+    overflow-y: auto;
+}
+#groupload::-webkit-scrollbar {
+  display: none; /* Hide the scrollbar for Chrome and Safari */
+}
+.Title_bar {
+    display: flex;
+    align-items: center;
+    /* z-index: -1; */
+}
+
+.Group_No {
+    margin-right: 10px;
+}
+
+.Group_No h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Title h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Group_Member ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Group_Member li {
+    margin-bottom: 5px;
+}
+
+.Group:hover {
+    background-color: grey;
+    color: white;
+}
+
+.edit-button button{
+    /* background-color: #B0DAFF; */
+    border: none;
+    color: #333;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+}

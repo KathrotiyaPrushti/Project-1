@@ -1,0 +1,31 @@
+.Searchbar {
+    display: flex;
+    /* position: fixed; */
+    width: 78%;
+    margin-left: 280px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #f0f0f0;
+    justify-content: space-between;
+}
+
+.addcontainer {
+    /* position: inherit; */
+    display: inline-block;
+    align-items: center; 
+}
+
+.addcontainer a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+
+.addcontainer a:hover {
+    background-color: #005366;
+    color: #fff;
+}
