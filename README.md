@@ -56,15 +56,20 @@ A **web-based platform** for students and faculty to **submit, manage, and revie
 ## 📸 Screenshots  
 
 ### **🔹 Login & Authentication**
-![image](https://github.com/user-attachments/assets/7409400e-7ed0-4b43-9eef-896a8969b1c2)
+![image](https://github.com/user-attachments/assets/8736e5be-b8a1-4c5d-8f63-9a4acbf991ae)
 
 
 ### **🔹 Project Submission Dashboard**  
-![image](https://github.com/user-attachments/assets/316c28a3-d068-4ccc-83d1-55ac6a166258)
-![image](https://github.com/user-attachments/assets/1df8928e-39a1-461c-9bcf-8570d374444b)
+![image](https://github.com/user-attachments/assets/b2ced421-8064-4cd9-97b9-9d8035f5bf1a)
+![image](https://github.com/user-attachments/assets/7719da7a-a592-478e-8eef-b60216aea4a3)
+![image](https://github.com/user-attachments/assets/0c69169e-1842-46d4-b4b2-ab4d73b7da7d)
 
 
 ### **🔹 Mentor-wise Project Listing**  
-![image](https://github.com/user-attachments/assets/1903acbc-8755-40d9-939c-e5ad99ccf9e4)
+![image](https://github.com/user-attachments/assets/45e3c977-9f18-4a45-9f7b-49c662f49e62)
+![image](https://github.com/user-attachments/assets/e0c6c406-e456-42a5-97b8-2a09b9866c88)
+![image](https://github.com/user-attachments/assets/bf8fd219-f07d-4756-b915-f28984c25644)
+![image](https://github.com/user-attachments/assets/9d4dca32-a471-41c8-a61f-200cee997841)
+
 
 ---
